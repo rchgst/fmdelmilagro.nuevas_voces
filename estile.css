@@ -30,6 +30,9 @@ header,footer,article,nav,div{
 .mainNav{
     grid-area: nav;
 }
+#siteAdd{
+    grid-area: ads;
+}
 @media all and (max-width: 575px) {
     body{
         grid-template-areas:
