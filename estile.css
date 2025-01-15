@@ -1,71 +1,116 @@
-body{
+body {
+    font-family: 'Times New Roman', Times, serif;
     display: grid;
     grid-template-areas:
-    "header header"
-    "nav article"
-    "ads article"
-    "ads footer";
+        "header header"
+        "nav article"
+        "ads article"
+        "ads footer";
     grid-template-rows: 80px 1fr 120px 70px;
     grid-template-columns: 20% 1fr;
     grid-row-gap: 10px;
     column-gap: 10px;
-    height: 97vh;
+    height: 100vh;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 24px;
-    color: white;
+    font-size: 24px;    
 }
-header,footer,article,nav,div{
+
+header,
+footer,
+article,
+nav,
+div {
     padding: 1.2em;
-    background: rgba(123, 119, 121, 0.677);
+    background-color: beige;
 }
-.pageHeader{
+
+.pageHeader {
     grid-area: header;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    text-align: center;
 }
-.pageFooter{
+.pageHeader h1{
+    color: white ;
+    display: inline;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+.pageFooter {
     grid-area: footer;
+    background-color: dimgray;
+    padding: 0;
 }
-.mainArticle{
+
+.mainArticle {
     grid-area: article;
+    background-color: slategray;"
 }
-.mainNav{
+
+.mainNav {
+    background-color:DimGray;
     grid-area: nav;
 }
-#siteAdd{
+
+#siteAdd {
     grid-area: ads;
+    background-color: black;
+}
+
+.iframe-radio {
+    display: block;
+    width: 75%;
+    height: 200px;
+    border: none;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 60%;
+    margin: auto;
+}
+.iframe-pag2{
+    width: 100%;
+    height: 450px;
+    border: none;
 }
 @media all and (max-width: 575px) {
-    body{
+    body {
         grid-template-areas:
-        "header header"
-        "article article"
-        "nav nav"
-        "ads ads"
-        "footer footer";
+            "header header"
+            "article article"
+            "nav nav"
+            "ads ads"
+            "footer footer";
         grid-template-rows: 80px 1fr 70px;
         grid-template-columns: 25% 1fr;
     }
 }
+
 @media all and (min-width: 576px) and (max-width: 767px) {
-    body{
+    body {
         grid-template-areas:
-        "header header"
-        "article article"
-        "nav nav"
-        "ads ads"
-        "footer footer";
+            "header header"
+            "article article"
+            "nav nav"
+            "ads ads"
+            "footer footer";
         grid-template-rows: 80px 1fr 70px;
         grid-template-columns: 25% 1fr;
     }
 }
+
 @media all and (min-width:768px) and (max-width:991px) {
-    body{
+    body {
         grid-template-areas:
-        "header header"
-        "article article"
-        "nav nav"
-        "ads ads"
-        "footer footer";
+            "header header"
+            "article article"
+            "nav nav"
+            "ads ads"
+            "footer footer";
         grid-template-rows: 80px 1fr 70px;
         grid-template-columns: 25% 1fr;
     }
