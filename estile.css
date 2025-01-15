@@ -38,7 +38,7 @@ header,footer,article,nav,div{
     body{
         grid-template-areas:
         "header header"
-        "article carticle"
+        "article article"
         "nav nav"
         "ads ads"
         "footer footer";
@@ -50,7 +50,7 @@ header,footer,article,nav,div{
     body{
         grid-template-areas:
         "header header"
-        "article carticle"
+        "article article"
         "nav nav"
         "ads ads"
         "footer footer";
@@ -62,7 +62,7 @@ header,footer,article,nav,div{
     body{
         grid-template-areas:
         "header header"
-        "article carticle"
+        "article article"
         "nav nav"
         "ads ads"
         "footer footer";
