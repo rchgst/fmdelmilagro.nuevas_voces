@@ -1,45 +1,68 @@
 body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color:beige;
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav article"
+    "ads article"
+    "ads footer";
+    grid-template-rows: 80px 1fr 120px 70px;
+    grid-template-columns: 20% 1fr;
+    grid-row-gap: 10px;
+    height: 97vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
 }
-header{
-    height: 25%;
-    width: 100%;
-    margin: 0;
-    padding: 20px;
+header,footer,article,nav,div{
+    padding: 1.2em;
+    background: rgba(123, 119, 121, 0.677);
 }
-header h1{
-    text-align: center;
-    margin: 50px 0px 50px 0px;
+.pageHeader{
+    grid-area: header;
 }
-.logo-header{
-    position: absolute;
-    left: 780px;
-    top: 55px;
-    display: inline;
+.pageFooter{
+    grid-area: footer;
 }
-section iframe{
-    width: 100%;
-    height: 200px;
-    border: none;
+.mainArticle{
+    grid-area: article;
 }
-.informacion pre{
-    font-size: 20px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+.mainNav{
+    grid-area: nav;
 }
-footer{
-    background-color: white;
-    text-align: center;
-    margin-top: auto;
+@media all and (max-width: 575px) {
+    body{
+        grid-template-areas:
+        "header header"
+        "article carticle"
+        "nav nav"
+        "ads ads"
+        "footer footer";
+        grid-template-rows: 80px 1fr 70px;
+        grid-template-columns: 25% 1fr;
+    }
 }
-.imagen-youtube{
-    position: relative;
-    top: 0px;
+@media all and (min-width: 576px) and (max-width: 767px) {
+    body{
+        grid-template-areas:
+        "header header"
+        "article carticle"
+        "nav nav"
+        "ads ads"
+        "footer footer";
+        grid-template-rows: 80px 1fr 70px;
+        grid-template-columns: 25% 1fr;
+    }
 }
-footer nav a,img{
-    position: relative;
-    bottom: 15px;
+@media all and (min-width:768px) and (max-width:991px) {
+    body{
+        grid-template-areas:
+        "header header"
+        "article carticle"
+        "nav nav"
+        "ads ads"
+        "footer footer";
+        grid-template-rows: 80px 1fr 70px;
+        grid-template-columns: 25% 1fr;
+    }
 }
