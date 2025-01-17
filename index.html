@@ -2,30 +2,45 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>nuevas_voces_ok</title>
-  <link rel="stylesheet" href="estile.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>nuevas_voces</title>
 </head>
 
 <body>
-  <header class="pageHeader">
-    <h1>nuevas voces</h1>
-  </header>
-  <article class="mainArticle">
-    <iframe class="iframe-pag2" src="pagina_de_informacion.html"></iframe>
-  </article>
-  <nav class="mainNav">
-    <a href="noticias.html">inicio</a>
-  </nav>
-  <div id="siteAdd">Ads</div>
-  <footer class="pageFooter" style="background-color: DimGray;">
-    <nav class="redes" style="background-color: dimgray;">
-      <a href="https://www.instagram.com/nuevasvoces.ok?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-        instagram
-      </a>
+    <header class="pageHeader">
+        <h1 id="titulo-principal">Nuevas voces</h1>
+    </header>
+    <article class="mainArticle">
+        <iframe src="paginas_html/informacion.html" name="marco"></iframe>
+    </article>
+    <nav class="mainNav">
+        <a href="paginas_html/noticias.html" target="marco">noticias</a>
+        <a href="paginas_html/informacion.html" target="marco">acerca de</a>
+        <a href="paginas_html/galeria.html" target="marco">galeria</a>
+        <a href="paginas_html/contacto.html" target="marco">contacto</a>
+        <a href="paginas_html/equipo.html" target="marco">equipo</a>
     </nav>
-  </footer>
+    
+    <footer class="pageFooter">
+        <h3>nuestras redes:</h3>
+        <nav class="redes-section">
+            <a href="https://www.instagram.com/nuevasvoces.ok?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank">
+                <img src="imagenes_redes/Captura de pantalla 2025-01-16 230756.png" alt="instagram logo"
+                    title="instagram nuevas voces" width="35px" />
+            </a>
+            <a href="#titulo-principal">
+                <img src="imagenes_redes/Captura de pantalla 2025-01-16 230748.png" alt="logo de facebook"
+                    title="facebook de nuevas voces" width="35px" />
+            </a>
+            <a href="#titulo-principal">
+                <img src="imagenes_redes/Captura de pantalla 2025-01-16 230806.png" alt="whatsap logo"
+                    title="whatsap de nuevas voces" width="35px" />
+            </a>
+        </nav>
+    </footer>
 </body>
 
 </html>
