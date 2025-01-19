@@ -26,7 +26,8 @@ nav {
 
 .pageHeader {
     grid-area: header;
-    background-color: #eaeaea;
+    background-color: #2c2c2c;
+    color: #eaeaea;
 }
 
 .pageHeader h1 {
@@ -35,6 +36,12 @@ nav {
     font-size: 38px;
     text-align: center;
     margin: 0;
+}
+
+.pageHeader img{
+    position: relative;
+    top: -40px;
+    left: 45px;
 }
 
 .pageFooter {
