@@ -38,7 +38,7 @@ nav {
     margin: 0;
 }
 
-.pageHeader img{
+.pageHeader img {
     position: relative;
     top: -40px;
     left: 45px;
@@ -91,14 +91,15 @@ nav {
 
 .mainArticle iframe {
     width: 99%;
-    height: 80vh;
+    height: 74vh;
     border: none;
 }
 
 .mainNav {
     grid-area: nav;
+    margin: 0px 0px 0px 10px;
     background-color: #75706f;
-    border: none;
+    border: 1px solid black;
     height: 24vh;
 }
 
@@ -120,6 +121,24 @@ nav {
     transform: scale(1.05);
 }
 
+.mainSection {
+    float: left;
+    position: relative;
+    bottom: 520px;
+    /*border: 1px solid black;*/
+    height: 500px;
+}
+
+.mainSection img {
+    position: relative;
+    left: 30px;
+}
+
+.mainSection p {
+    text-align: center;
+    font-size: 20px;
+}
+
 @media (max-width: 992px) {
     body {
         grid-template-areas:
@@ -135,20 +154,9 @@ nav {
     body {
         grid-template-areas:
             "header header header"
-            "nav article article"
+            "nav nav nav"
+            "article article article"
             "footer footer footer";
-        grid-template-columns: 1fr;
-        grid-template-rows: 80px 1fr auto auto 70px;
-    }
-}
-
-@media (max-width: 575px) {
-    body {
-        grid-template-areas:
-            "header"
-            "nav"
-            "article"
-            "footer";
         font-size: 18px;
     }
 
@@ -176,15 +184,61 @@ nav {
         height: 2vh;
         background-color: #75706f;
     }
+
+    .mainSection {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    body {
+        grid-template-areas:
+            "header header header"
+            "nav nav nav"
+            "article article article"
+            "footer footer footer";
+        font-size: 18px;
+    }
+
+    header,
+    footer,
+    article,
+    nav {
+        padding: 1, 1em;
+    }
+
+    .mainNav a {
+        display: inline;
+        margin: 5px 5px;
+        padding: 1px;
+        text-decoration: none;
+        border-radius: 10px 10px;
+        color: #2c2c2c;
+        background-color: #acaba9;
+        text-align: center;
+    }
+
+    .mainNav {
+        text-align: center;
+        border: none;
+        height: 2vh;
+        background-color: #75706f;
+    }
+
+    .mainSection {
+        display: none;
+    }
 }
 
 @media (max-width: 450px) {
     body {
         grid-template-areas:
-            "header"
-            "nav"
-            "article"
-            "footer";
+            "header header header"
+            "nav nav nav"
+            "article article article"
+            "footer footer footer";
+        font-size: 18px;
     }
 
     .mainNav a {
@@ -200,5 +254,12 @@ nav {
 
     .mainNav {
         height: 40px;
+    }
+
+    .mainSection {
+        display: none;
+    }
+    .pageHeader img{
+        display: none;
     }
 }
