@@ -241,6 +241,12 @@ nav {
         font-size: 18px;
     }
 
+    .mainArticle iframe{
+        position: relative;
+        top: -35px;
+        height: 70vh;
+    }
+
     .mainNav a {
         display: inline;
         margin: 5px 2px;
