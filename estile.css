@@ -250,7 +250,7 @@ nav {
     .mainNav a {
         display: inline;
         margin: 5px 2px;
-        padding: 4px;
+        padding: 2px;
         text-decoration: none;
         border-radius: 0px 0px;
         color: #2c2c2c;
@@ -267,5 +267,16 @@ nav {
     }
     .pageHeader img{
         display: none;
+    }
+}
+@media (max-width:320px) {
+    .mainNav{
+        margin: 0;
+    }
+    .mainNav a{
+        padding: 0px;
+        margin: 0;
+        text-align: right;
+        font-size: 17px;
     }
 }
