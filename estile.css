@@ -169,12 +169,13 @@ nav {
 
     .mainNav a {
         display: inline;
-        margin: 5px 5px;
-        padding: 1px;
+        margin: 5px 2px;
+        padding: 2px;
         text-decoration: none;
-        border-radius: 10px 10px;
+        border-radius: 8px 8px 8px 8px;
+        border: 2px solid black;
         color: #2c2c2c;
-        background-color: #acaba9;
+        background-color: #eaeaea;
         text-align: center;
     }
 
@@ -210,12 +211,13 @@ nav {
 
     .mainNav a {
         display: inline;
-        margin: 5px 5px;
-        padding: 1px;
+        margin: 5px 2px;
+        padding: 2px;
         text-decoration: none;
-        border-radius: 10px 10px;
+        border-radius: 8px 8px 8px 8px;
+        border: 2px solid black;
         color: #2c2c2c;
-        background-color: #acaba9;
+        background-color: #eaeaea;
         text-align: center;
     }
 
@@ -252,7 +254,8 @@ nav {
         margin: 5px 2px;
         padding: 2px;
         text-decoration: none;
-        border-radius: 0px 0px;
+        border-radius: 8px 8px 8px 8px;
+        border: 2px solid black;
         color: #2c2c2c;
         background-color: #eaeaea;
         text-align: center;
@@ -269,14 +272,56 @@ nav {
         display: none;
     }
 }
-@media (max-width:320px) {
-    .mainNav{
+@media (max-width:389px){
+    .mainNav .e-equipo{
         margin: 0;
     }
     .mainNav a{
-        padding: 0px;
-        margin: 0;
+        margin: 5px 0px;
+        font-size: 17.8px;
+    }
+}
+@media (max-width:367px){
+    .mainNav{
+        height: 73px;
+    }
+    .mainNav .e-equipo{
+        margin: 0px 20px 0px 0px;
+    }
+    .mainNav .e-acerca_de{
+        position: relative;
+        top:8px;
+    }
+    .mainNav a{
+        margin: 5px 2px;
+    }
+}
+@media (max-width:320px) {
+    .mainNav{
+        position: relative;
+        top: -7px;
+        margin: 5px 0px;
+        height: 63px;
+    }
+    .mainNav .e-acerca_de{
+        position: relative;
+        top: 12px;
+    }
+    .mainNav .e-equipo{
+        margin:0;
+    }
+    .mainNav a{
+        padding: 5px;
+        margin: 5px 2px;
         text-align: right;
         font-size: 17px;
+        border-radius: 5px 5px 8px 8px;
+        border: 1px solid black;
+    }
+}
+@media (max-width:289px) {
+    .mainNav .e-equipo{
+        position: relative;
+        top: 12px; 
     }
 }
