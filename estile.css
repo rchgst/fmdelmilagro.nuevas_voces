@@ -189,7 +189,7 @@ nav {
     .mainSection {
         display: none;
     }
-    
+
 }
 
 @media (max-width: 575px) {
@@ -243,7 +243,7 @@ nav {
         font-size: 18px;
     }
 
-    .mainArticle iframe{
+    .mainArticle iframe {
         position: relative;
         top: -28px;
         height: 70vh;
@@ -268,49 +268,60 @@ nav {
     .mainSection {
         display: none;
     }
-    .pageHeader img{
+
+    .pageHeader img {
         display: none;
     }
 }
-@media (max-width:389px){
-    .mainNav .e-equipo{
+
+@media (max-width:389px) {
+    .mainNav .e-equipo {
         margin: 0;
     }
-    .mainNav a{
+
+    .mainNav a {
         margin: 5px 0px;
         font-size: 17.8px;
     }
 }
-@media (max-width:367px){
-    .mainNav{
+
+@media (max-width:367px) {
+    .mainNav {
         height: 73px;
     }
-    .mainNav .e-equipo{
+
+    .mainNav .e-equipo {
         margin: 0px 20px 0px 0px;
     }
-    .mainNav .e-acerca_de{
+
+    .mainNav .e-acerca_de {
         position: relative;
-        top:8px;
+        top: 8px;
     }
-    .mainNav a{
+
+    .mainNav a {
         margin: 5px 2px;
     }
 }
+
 @media (max-width:320px) {
-    .mainNav{
+    .mainNav {
         position: relative;
         top: -7px;
         margin: 5px 0px;
         height: 63px;
     }
-    .mainNav .e-acerca_de{
+
+    .mainNav .e-acerca_de {
         position: relative;
         top: 12px;
     }
-    .mainNav .e-equipo{
-        margin:0;
+
+    .mainNav .e-equipo {
+        margin: 0;
     }
-    .mainNav a{
+
+    .mainNav a {
         padding: 5px;
         margin: 5px 2px;
         text-align: right;
@@ -319,9 +330,10 @@ nav {
         border: 1px solid black;
     }
 }
+
 @media (max-width:289px) {
-    .mainNav .e-equipo{
+    .mainNav .e-equipo {
         position: relative;
-        top: 12px; 
+        top: 12px;
     }
 }
