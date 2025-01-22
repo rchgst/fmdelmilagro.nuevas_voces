@@ -99,7 +99,6 @@ nav {
     grid-area: nav;
     margin: 0px 0px 0px 10px;
     background-color: #75706f;
-    border: 1px solid black;
     height: 24vh;
 }
 
@@ -298,12 +297,17 @@ nav {
 
     .mainNav .e-acerca_de {
         position: relative;
-        top: 8px;
+        top: 14px;
     }
 
     .mainNav a {
         margin: 5px 2px;
         font-size: 17.6px;
+    }
+
+    .mainArticle{
+        position: relative;
+        top: 10px;
     }
 }
 
