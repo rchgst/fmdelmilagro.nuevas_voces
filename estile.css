@@ -297,17 +297,12 @@ nav {
 
     .mainNav .e-acerca_de {
         position: relative;
-        top: 14px;
+        top: 8px;
     }
 
     .mainNav a {
         margin: 5px 2px;
         font-size: 17.6px;
-    }
-
-    .mainArticle{
-        position: relative;
-        top: 10px;
     }
 }
 
