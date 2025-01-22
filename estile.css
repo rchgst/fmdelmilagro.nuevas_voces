@@ -285,47 +285,25 @@ nav {
         font-size: 17.6px;
     }
 }
-@media (max-width:367px){
-    .mainNav a {
-        margin: 5px 0px;
-        font-size: 17.6px;
+@media (max-width:360px){
+    .mainNav a{
         text-align: right;
+        margin: 1px;
     }
-    .mainNav .e-equipo{
-        margin: 0px 25px 0px 0px;
+    .mainNav{
+        height: 75px;
     }
     .mainNav .e-noticias{
         margin: 0px 0px 0px 25px;
     }
-    .mainNav{
-        height: 78px;
-    }
-    .mainNav .e-acerca_de{
-        position: relative;
-        top: 12px;
-    }
-}
-@media (max-width:340px) {
-    .mainNav a {
-        margin: 5px 0px;
-        font-size: 17.6px;
-        text-align: right;
-    }
     .mainNav .e-equipo{
-        margin: 0px 2px 0px 0px;
-    }
-    .mainNav .e-noticias{
-        margin: 0px 0px 0px 20px;
-    }
-    .mainNav{
-        height: 78px;
+        margin: 0px 25px 0px 0px;
     }
     .mainNav .e-acerca_de{
         position: relative;
-        top: 12px;
+        top: 8px;
     }
 }
-
 @media (max-width:320px) {
     .mainNav {
         position: relative;
