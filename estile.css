@@ -8,7 +8,7 @@ body {
     grid-template-columns: 20% 1fr 15%;
     row-gap: 10px;
     column-gap: 10px;
-    height: 97vh;
+    height: 100vh;
     background-color: #75706f;
     color: #121212;
     font-size: 22px;
@@ -53,7 +53,7 @@ nav {
     background-color: #333;
     color: #fff;
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
