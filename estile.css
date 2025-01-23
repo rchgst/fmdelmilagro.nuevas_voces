@@ -120,6 +120,10 @@ nav {
     transform: scale(1.05);
 }
 
+.mainNav .inferior{
+    display: inline;
+ }
+
 .mainSection {
     float: left;
     position: relative;
@@ -232,7 +236,7 @@ nav {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 448px) {
     body {
         grid-template-areas:
             "header header header"
@@ -261,7 +265,20 @@ nav {
     }
 
     .mainNav {
-        height: 50px;
+        height: 78px;
+    }
+
+    .mainNav .e-acerca_de{
+        position: relative;
+        top: 12px;
+    }
+
+    .mainNav .e-inicio{
+        margin: 0px 0px 0px 35px;
+    }
+
+    .mainNav .e-contacto{
+        margin: 0px 35px 0px 0px;
     }
 
     .mainSection {
@@ -273,7 +290,7 @@ nav {
     }
 }
 
-@media (max-width:389px) {
+@media (max-width:390px) {
     .mainNav .e-equipo {
         margin: 0;
     }
@@ -284,24 +301,19 @@ nav {
         margin: 5px 0px;
         font-size: 17.6px;
     }
-}
-@media (max-width:360px){
-    .mainNav a{
-        text-align: right;
-        margin: 1px;
-    }
-    .mainNav{
-        height: 75px;
-    }
-    .mainNav .e-noticias{
-        margin: 0px 0px 0px 25px;
-    }
-    .mainNav .e-equipo{
-        margin: 0px 25px 0px 0px;
-    }
-    .mainNav .e-acerca_de{
+
+    .mainNav .e-acerca_de,.e-contacto{
         position: relative;
-        top: 8px;
+        top: 10px;
+        margin: 0;
+    }
+
+    .mainNav{
+        height: 78px;
+    }
+
+    .mainNav .inferior{
+        display: block;
     }
 }
 @media (max-width:320px) {
@@ -317,23 +329,24 @@ nav {
         top: 12px;
     }
 
+    .mainNav .e-contacto{
+        position: relative;
+        top:12px;
+    }
+
     .mainNav .e-equipo {
         margin: 0;
     }
 
     .mainNav a {
-        padding: 5px;
+        display: inline;
         margin: 5px 2px;
-        text-align: right;
-        font-size: 17px;
-        border-radius: 5px 5px 8px 8px;
-        border: 1px solid black;
-    }
-}
-
-@media (max-width:289px) {
-    .mainNav .e-equipo {
-        position: relative;
-        top: 12px;
+        padding: 2px;
+        text-decoration: none;
+        border-radius: 8px 8px 8px 8px;
+        border: 2px solid black;
+        color: #2c2c2c;
+        background-color: #eaeaea;
+        text-align: center;
     }
 }
