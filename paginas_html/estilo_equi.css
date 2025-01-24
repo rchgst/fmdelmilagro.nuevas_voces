@@ -8,6 +8,11 @@ html {
   }
   body{
     background-color: #fff;
+    padding: 25px;
+  }
+  header{
+    text-align: center;
+    font-size: ;
   }
   .text-center {
     text-align: center;
@@ -22,19 +27,19 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 35px 5px;
+    padding: 20px 5px;
     width: 100%;
   }
   
   @media screen and (min-width:1380px) {
     .box-container {
-      flex-direction: row
+      flex-direction: row;
     }
   }
   
   .box-item {
     position: relative;
-    width: 415px;
+    width: 280px;
     margin-bottom: 35px;
     max-width: 100%;
   }
@@ -141,4 +146,15 @@ html {
     margin-top: 25px;
     padding: 15px 20px;
     text-transform: uppercase;
+  }
+  @media (max-width:425px){
+    .box-item{
+      width: 260px;
+      height: 350px;
+      margin: 0px 0px 150px 0px;
+
+    }
+    .box-container .box-item .flip-box .inner{
+      padding: 30px;
+    }
   }
