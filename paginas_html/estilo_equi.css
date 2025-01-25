@@ -147,6 +147,10 @@ html {
     padding: 15px 20px;
     text-transform: uppercase;
   }
+  .flip-box-button a{
+    text-decoration: none;
+    color: #fff;
+  }
   @media (max-width:425px){
     .box-item{
       width: 260px;
