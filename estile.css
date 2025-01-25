@@ -267,18 +267,14 @@ nav {
     .mainNav {
         height: 78px;
     }
-
-    .mainNav .e-acerca_de{
-        position: relative;
-        top: 12px;
-    }
-
     .mainNav .e-inicio{
         margin: 0px 0px 0px 35px;
     }
 
-    .mainNav .e-contacto{
-        margin: 0px 35px 0px 0px;
+    .mainNav .inferior{
+        display: block;
+        position: relative;
+        top: 10px;
     }
 
     .mainSection {
@@ -302,9 +298,7 @@ nav {
         font-size: 17.6px;
     }
 
-    .mainNav .e-acerca_de,.e-contacto{
-        position: relative;
-        top: 10px;
+    .mainNav .inferior{
         margin: 0;
     }
 
@@ -323,17 +317,6 @@ nav {
         margin: 5px 0px;
         height: 63px;
     }
-
-    .mainNav .e-acerca_de {
-        position: relative;
-        top: 12px;
-    }
-
-    .mainNav .e-contacto{
-        position: relative;
-        top:12px;
-    }
-
     .mainNav .e-equipo {
         margin: 0;
     }
