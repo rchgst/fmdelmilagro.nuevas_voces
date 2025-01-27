@@ -31,7 +31,7 @@
 
 .about-content .about-item img {
     width: 100%;
-    max-width: 400px;
+    max-width: 170px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -41,7 +41,7 @@
     text-align: left;
 }
 
-.about-content .text-content h3 {
+.about-content .text-content h3,h4 {
     font-size: 1.8rem;
     margin-bottom: 10px;
     color: #007BFF;
