@@ -99,6 +99,10 @@
     color: #333;
 }
 
+.about-item .text-content p span{
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
     .about-content .about-item {
         flex-direction: column;
